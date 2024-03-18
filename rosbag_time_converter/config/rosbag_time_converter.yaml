@@ -1,0 +1,7 @@
+rosbag_time_converter:
+  ros__parameters:
+    plugin_params:
+      time_to_use: 'ROS2'
+      msg_dir: 'src/cfe_ros2_bridge_plugin/cfe_msgs/msg'
+      src_path: 'new-bag-file'
+      dst_path: 'changed-bag-file-ROS2'
